@@ -2,11 +2,11 @@
 A program for planning the cuts needed to make parts from stock material.
 
 ## Repository Contents
-`Program.cs`: The entry point for the command-line application.
-`SolutionBase.cs`: The base class from which all solutions inherit.
-`BlankSolution.cs`: An empty solution provided in case you wish to write your own solution.
-`Solution` directory: Contains a variety of solutions to the problem.
-`DataEncoding` directory: Contains classes which encode different parts of the problem and solution.
+* `Program.cs`: The entry point for the command-line application.
+* `SolutionBase.cs`: The base class from which all solutions inherit.
+* `BlankSolution.cs`: An empty solution provided in case you wish to write your own solution.
+* `Solution` directory: Contains a variety of solutions to the problem.
+* `DataEncoding` directory: Contains classes which encode different parts of the problem and solution.
 
 ## Problem Description
 Supose that we are creating a project which requires several parts cut from the same stock material (for example, several pieces of wood cut from 2x4's). At the store, we can purchase stock material at multiple lengths (such as 8ft, 10ft, and 12ft 2x4's). Our goal is to plan our cuts to minimize wasted stock material. An *optimal* solution is one which uses the minimum amount of stock possible.
@@ -30,7 +30,7 @@ To solve this problem, you can write your solution in `BlankSolution.cs` in the 
 ## Future Work
 Algorithmic
 * Add aditional improvements to GreedyPlus
-* Create a Multithreading optimization of FullSolution
+* Create a multithreading optimization of FullSolution
 
 Proofs
 * NP Hardness proof
