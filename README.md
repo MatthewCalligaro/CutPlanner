@@ -33,7 +33,7 @@ Algorithmic
 * Create a multithreading optimization of FullSolution
 
 Proofs
-* NP Hardness proof
+* NP-hardness proof: Reduce from partition problem
 * Greed approximation proof
 
 Features
